@@ -1,0 +1,93 @@
+Assignment 3 - Object Detection Results
+
+Input image: input.jpg
+Image size: 1920 x 1080 pixels
+Model: TensorFlow SSD-Mobilenet-v2 COCO 2018-03-29
+Target class: person
+Confidence threshold: 0.50
+Total matching detections: 6
+
+Detection 1
+ClassName: person
+ClassID: 1
+Confidence: 0.983455
+Left: 734.104
+Top: 185.906
+Right: 1015.115
+Bottom: 940.912
+Width: 281.011
+Height: 755.006
+Area: 212164.860
+Center: (874.609, 563.409)
+
+Detection 2
+ClassName: person
+ClassID: 1
+Confidence: 0.982510
+Left: 1052.013
+Top: 124.855
+Right: 1398.974
+Bottom: 979.060
+Width: 346.960
+Height: 854.205
+Area: 296375.375
+Center: (1225.493, 551.957)
+
+Detection 3
+ClassName: person
+ClassID: 1
+Confidence: 0.953856
+Left: 1482.780
+Top: 165.508
+Right: 1708.678
+Bottom: 890.836
+Width: 225.899
+Height: 725.327
+Area: 163850.341
+Center: (1595.729, 528.172)
+
+Detection 4
+ClassName: person
+ClassID: 1
+Confidence: 0.624323
+Left: 444.701
+Top: 130.572
+Right: 744.814
+Bottom: 939.380
+Width: 300.113
+Height: 808.807
+Area: 242733.507
+Center: (594.757, 534.976)
+
+Detection 5
+ClassName: person
+ClassID: 1
+Confidence: 0.591158
+Left: 1772.449
+Top: 164.066
+Right: 1824.518
+Bottom: 267.302
+Width: 52.069
+Height: 103.235
+Area: 5375.347
+Center: (1798.484, 215.684)
+
+Detection 6
+ClassName: person
+ClassID: 1
+Confidence: 0.586331
+Left: 1834.365
+Top: 148.773
+Right: 1879.141
+Bottom: 254.537
+Width: 44.777
+Height: 105.765
+Area: 4735.810
+Center: (1856.753, 201.655)
+
+Verification note:
+All person detections at or above the 0.50 confidence threshold are listed.
+Low-confidence small boxes can be distant people or false positives.
+The values were produced by a CPU reference run of TensorFlow
+SSD-Mobilenet-v2 COCO. The Jetson program uses the corresponding
+jetson-inference network, so TensorRT can produce small numerical differences.
